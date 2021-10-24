@@ -16,7 +16,6 @@ def enterInfo():
 def checkTasks():
     global ntd
     for i in range(len(ntd)):
-        print(i)
         currentTime = t.strftime("%H:%M")
         if str(ntd[i][1]) == str(currentTime):
             #Sending the notification
